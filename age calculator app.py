@@ -6,7 +6,6 @@ class AgeCalculator:
         self.window = tk.Tk()
         self.window.title("Age Calculator")
 
-        # Create input fields
         tk.Label(self.window, text="Date (DD):").grid(row=0, column=0)
         tk.Label(self.window, text="Month (MM):").grid(row=1, column=0)
         tk.Label(self.window, text="Year (YYYY):").grid(row=2, column=0)
